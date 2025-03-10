@@ -1,11 +1,11 @@
-# Meu Currículo em LaTeX
+### Meu currículo em LaTeX
 
 Este repositório contém meu currículo criado utilizando **LaTeX**, garantindo um layout limpo, organizado e profissional.
 
-## 📄 Sobre o Currículo
+#### 📄 Sobre o currículo
 O documento foi estruturado para destacar minha formação acadêmica, experiências profissionais e habilidades técnicas, com foco em **análise de dados** e **tecnologia**. O uso do LaTeX proporciona uma formatação padronizada e elegante, facilitando a leitura e atualização do currículo.
 
-## 🛠 Tecnologias Utilizadas
+#### 🛠 Tecnologias utilizadas
 - **LaTeX** (classe `article`)
 - Pacotes:
   - `geometry` (margens otimizadas)
@@ -14,7 +14,7 @@ O documento foi estruturado para destacar minha formação acadêmica, experiên
   - `titlesec` (customização de seções)
   - `xcolor` (personalização de cores)
 
-## 📥 Como Usar
+#### 📥 Como usar
 Para compilar o currículo, você pode utilizar:
 
 1. **Overleaf** (online):
@@ -26,7 +26,7 @@ Para compilar o currículo, você pode utilizar:
      pdflatex curriculo.tex
      ```
 
-## 📌 Contato
+#### 📌 Contato
 Caso tenha sugestões ou melhorias, fique à vontade para abrir uma _issue_ ou _pull request_.
 
 📧 [jessicafalcundes@outlook.com](mailto:jessicafalcundes@outlook.com)  
