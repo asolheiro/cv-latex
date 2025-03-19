@@ -1,0 +1,143 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Jessica Aline Barros Falcundes}
+
+\vspace{0.4em}
+
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+
+São Paulo - SP
+
+{\color{blue}} \href{tel:+5567998748431}{\faPhone \space (11) 99767-0355}
+{\color{blue}} \href{mailto:jessicafalcundes@outlook.com}{\faEnvelope \space jessicafalcundes@outlook.com}
+
+\vspace{0.2em}
+ \quad
+{\color{blue}} \href{https://github.com/jessicafalcundes}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/jessicafalcundes/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{1em}
+
+\begin{center}
+    \textbf{\Large Junior Data Analyst}
+\end{left}
+\vspace{0.5em}
+
+\section*{Resumo Profissional}
+
+\vspace{0.6em}
+
+Graduanda em Análise e Desenvolvimento de Sistemas pela Fatec Carapicuíba, com foco em Análise de Dados. Graduada em História pela Universidade Santo Amaro. Experiência em pesquisa e análise de dados, organização da informação e modelagem de dados. Conhecimento em SQL, ETL, Python (Pandas, NumPy) e Power BI. Habilidades em pensamento analítico, resolução de problemas e comunicação eficaz. 
+
+\vspace{0.6em}
+
+\vspace{0.5em}
+
+\section*{Experiência}
+
+\vspace{0.6em}
+
+\entry{Colégio Santa Cruz }{\faCalendar \space Setembro/2021 -- Setembro/2024}{Arquivista}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Gerenciamento de acervos, garantindo organização e acessibilidade para projetos educacionais.
+\item Elaboração de relatórios detalhados sobre movimentação de documentos e recursos.
+\item Criação de métricas e indicadores para monitoramento de utilização do acervo.
+\item Atuação em processos de desbaste e preservação de obras raras.
+
+\end{itemize}
+
+\entry{Universidade Santo Amaro}{\faCalendar \space 
+ Janeiro/2020 -- Setembro/2021}{Auxiliar de biblioteca}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Suporte no atendimento aos usuários e gestão de documentação.
+\item Colaboração em processos de aquisição, classificação e conservação de materiais.
+\item Implementação de melhorias no fluxo de informação e acesso aos recursos da biblioteca.
+
+\end{itemize}
+
+\entry{Grupo de Pesquisa CISGES/UNISA/CNPq}{\faCalendar \space 
+ Julho/2017 -- Dezembro/2018}{Pesquisadora no projeto: "História dos Negros na Literatura Brasileira: Representações e Formas de Subjetividade"}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Levantamento, categorizacão e análise de dados qualitativos e quantitativos relacionados a representações sociais e históricas.
+\item Revisão bibliográfica e análise documental de publicações temáticas.
+\item Produção de relatórios técnico-científicos e artigos para disseminação do conhecimento.
+\item Utilização de ferramentas colaborativas para organização e documentação da pesquisa.
+
+\end{itemize}
+
+
+
+% \vspace{-1.6em}
+
+\section*{Educação}
+\vspace{0.6em}
+
+\entry{FATEC Carapicuíba}{\faCalendar \space 2023 - 2026}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{\faMapMarker \space São Paulo - SP}
+
+\entry{Universidade Santo Amaro}{\faCalendar \space 2016 - 2018}{Licenciatura em História}{\faMapMarker \space São Paulo - SP}
+
+\entry{WoMakersCode}{\faCalendar \space 2025}{Bootcamp Data Analytics Instituto Localiza}{\faMapMarker \space São Paulo - SP}
+
+\section*{Habilidades e Competências}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Linguagens e Ferramentas: Python, SQL, Power BI, Excel Avançado, VSCode.
+\item Banco de Dados: PostgreSQL, BigQuery, NoSQL.
+\item Computação em Nuvem: Azure, AWS, Google Cloud.
+\item Controle de Versão: Git, GitHub.
+\item Metodologias ágeis: Scrum.
+\item Análise de dados e Pesquisa: análise quali-quantitativa de dados, categorizacão e interpretação de informações, elaboração de relatórios técnicos e científicos, revisão bibliográfica e análise documental, domínio de ferramentas colaborativas para pesquisa, organização e gestão de informações.
+\item Idiomas: Português - nativo, Inglês - avançado, Espanhol - intermediário.
+
+\end{itemize}
+
+
+\end{itemize}
+
+\end{document}
