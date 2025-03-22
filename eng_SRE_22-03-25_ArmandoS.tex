@@ -1,0 +1,140 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{bookmark}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Armando A. von Grap Solheiro}
+
+\vspace{0.4em}
+
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+
+São Paulo - Brazil
+
+{\color{blue}} \href{tel:+5591980243595}{\faPhone \space (91) 98024-3595}
+{\color{blue}} \href{mailto:avgsolheiro@gmail.com}{\faEnvelope \space avgsolheiro@gmail.com}
+
+\vspace{0.2em}
+ \quad
+{\color{blue}} \href{https://github.com/asolheiro}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/armandosolheiro/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{1em}
+
+\begin{center}
+    \textbf{\Large Site Reliability Engineer}
+\end{center}
+\vspace{0.5em}
+
+\section*{Professional Summary}
+
+IT professional focused on supporting platforms using DevOps and GitOps tools, such as Docker, Kubernetes, Helm, GitHub Actions and GitLabCI and on developing back-end applications and automations, with Go and Python.
+
+Has a solid track record with web applications, RESTful APIs, automations, integrations and messaging systems, but also has specific experience with front-end, embedded systems and other programming languages.
+
+\vspace{0.6em}
+
+\vspace{0.5em}
+
+\section*{Experience}
+
+\vspace{0.6em}
+
+\entry{JSRF Consulting}{\faCalendar \space January/2023 -- December/2024}{Freelance Developer}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Development of tools for event accreditation, reducing manual work and process time.
+\item SaaS development to simplify manual work in law firms.
+\item Development of chatbots to integrate customer services.
+\end{itemize}
+
+\entry{Banpará - Banco do estado do Pará}{\faCalendar \space August/2024 -- December/2024}{Systems Analyst}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Creation and standardization of legacy systems documentation required by the BACEN certification system.
+\item Development of the internal supplier contract management system.
+\item Standardization and updating of CI/CD systems tracks.
+\end{itemize}
+
+\entry{Jack Experts}{\faCalendar \space December/2024 -- Present}{DevOps Analyst}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Provisioning clusters with the company's standard stack: UI for management, monitoring and metrics collection, custom alerts, log centralization, scheduled backup, update and automation of routines.
+\item Development of a tool to automate healthcheck routines and reports.
+\item Migration of clusters between cloud providers, aiming for the lowest cost for the customer.
+\item Creation of Cloud Native applications; thus providing packages compatible with all the most widely used tools on the market.
+\item Development of tracks to automate the construction, provision and implementation of applications; thus minimizing manual work in the process and, therefore, human errors.
+\end{itemize}
+
+% \vspace{-1.6em}
+
+\section*{Education}
+\vspace{0.6em}
+
+\entry{Estácio}{\faCalendar \space 2023 - 2026}{Technologist in Systems Analysis and Development}{\faMapMarker \space São Paulo - SP}
+
+\entry{University of Amazônia}{\faCalendar \space 2020 - 2022}{Gastronomy}{\faMapMarker \space Belém - PA}
+
+
+\section*{Technical skills}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Languages and Tools: Python, Go, FastAPI, Django.
+\item Data bases: SQL, PostgreSQL, MySQL, Redis.
+\item DevOps: Docker, Kubernetes, Helm, GitHub Action, GitLabCI
+\item Others: Git, GitHub, GitLab, Linux, RabbitMQ, Markdown
+\end{itemize}
+
+\section*{Languages}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Portuguese: Native
+\item English: Advanced.
+\item French: Intermediate.
+\item Spanish: Basic.
+\end{itemize}
+
+\end{document}

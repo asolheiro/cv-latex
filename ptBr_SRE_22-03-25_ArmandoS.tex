@@ -1,0 +1,148 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{bookmark}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Armando A. von Grap Solheiro}
+
+\vspace{0.4em}
+
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+
+São Paulo - SP
+
+{\color{blue}} \href{tel:+5591980243595}{\faPhone \space (91) 98024-3595}
+{\color{blue}} \href{mailto:avgsolheiro@gmail.com}{\faEnvelope \space avgsolheiro@gmail.com}
+
+\vspace{0.2em}
+ \quad
+{\color{blue}} \href{https://github.com/asolheiro}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/armandosolheiro/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{1em}
+
+\begin{center}
+    \textbf{\Large Site Reliability Engineer}
+\end{center}
+\vspace{0.5em}
+
+\section*{Resumo Profissional}
+
+Profissional de TI com foco no suporte a plataformas utilizando ferramentas DevOps e GitOps, como Docker, Kubernetes, Helm,  GitHub Actions e GitLabCI e no desenvolvimento de back-end de aplicações e automações, com Go e Python.
+
+Possui sólido histórico com aplicações Web, RESTful APIs automações, integrações e sistemas de mensagerias, mas também possui experiências pontuais com front-end, sistemas embarcados e outras linguagens de programação
+
+
+
+\vspace{0.6em}
+
+\vspace{0.5em}
+
+\section*{Experiência}
+
+\vspace{0.6em}
+
+\entry{JSRF Consulting}{\faCalendar \space Janeiro/2023 -- Dezembro/2024}{Desenvolvedor}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Desenvolvimento de ferramentas para credenciamento em eventos, reduzindo o trabalho manual e tempo do processo.
+\item Desenvolvimento de SaaS para simplificar o trabalho manual em escritórios de advocacia.
+\item Criação de métricas e indicadores para monitoramento de utilização do acervo.
+\item Desenvolvimento de chatbots para integrar serviços de clientes.
+\end{itemize}
+
+\entry{Banco do estado do Pará}{\faCalendar \space Agosto/2024 -- Dezembro/2024}{Analista de sistemas}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Criação e padronização da documentação dos sistemas legados requisitada pelo sistema de certificação do BACEN.
+\item Desenvolvimento do sistema interno de gestão de contratos de fornecedores.
+\item Padronização e atualização das esteiras CI/CD de sistemas;
+\end{itemize}
+
+\entry{Jack Experts}{\faCalendar \space Dezembro/2024 -- Presente}{Analista DevOps}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Provisionamento de clusters com a stack padrão da empresa: UI para gerenciamento, monitoramento e coleta de métricas, alertas personalizados, centralização de logs, backup programado, atualização e automatização de rotinas.
+\item Desenvolvimento de ferramenta para automatizar rotinas e relatórios de healthcheck.
+\item Migração de clusters entre provedores na nuvem, visando o menor custo para o cliente.
+\item Criação de aplicações de Cloud Native; disponibilizando,assim, pacotes compatíveis com todas as ferramentas mais utilizadas no mercado
+\item Desenvolvimento de esteiras para automatizar construção, disponibilização e implementação das aplicações; minimizando, assim, o trabalho manual no processo e, portanto, os erros humanos.
+\end{itemize}
+
+% \vspace{-1.6em}
+
+\section*{Educação}
+\vspace{0.6em}
+
+\entry{Estácio}{\faCalendar \space 2023 - 2026}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{\faMapMarker \space São Paulo - SP}
+
+\entry{Universidade da Amazônia}{\faCalendar \space 2020 - 2022}{Gastronomia}{\faMapMarker \space Belém - PA}
+
+
+\section*{Habilidades e Competências}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Linguagens e Ferramentas: Python, Go, FastAPI, Django.
+\item Banco de Dados: SQL, PostgreSQL, MySQL, Redis.
+\item DevOps: Docker, Kubernetes, Helm, GitHub Action, GitLabCI
+\item Outros: Git, GitHub, GitLab, Linux, RabbitMQ, Markdown
+
+\end{itemize}
+
+
+\section*{Idiomas}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Português: Nativo
+\item Inglês: Avançado.
+\item Francês: Intermediário.
+\item Espanhol: Básico.
+
+
+
+\end{itemize}
+
+\end{document}
